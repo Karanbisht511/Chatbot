@@ -7,7 +7,7 @@ const port = 3000 || process.env.PORT;
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + "/public/index");
+    res.sendFile("index");
 });
 
 app.listen(port, function () {
