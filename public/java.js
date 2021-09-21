@@ -110,23 +110,8 @@ if (window.matchMedia("(max-width: 500px)").matches) {
 	}
 });
 
-//chatbot
-
-var btn=document.querySelector('.btn');
-
-btn.addEventListener('click',function(){
-var x=document.querySelector(".tofloat");
-if (x.style.display === "none") {
-	x.style.display = "block";
-} 
-else {
-	x.style.display = "none";
 }
-});
 
-	}
- 
-    
 // add function to mobile nav icons
 
 document.querySelector('.nav-icon').addEventListener('click', function(){
@@ -147,5 +132,3 @@ document.querySelector('.close').addEventListener('click', function(){
 
 
 });
-
-
