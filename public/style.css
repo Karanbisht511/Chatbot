@@ -52,9 +52,8 @@ header .nav {
 
 /*add animation class*/
 
-
 .container .welcome-sec {
-  background-image: url(ditimage.jpg);
+  background-image: url(images/ditimage.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -414,8 +413,8 @@ body {
   text-align: center;
   margin: 0 auto;
   padding: 35px 0;
-  font: 300 60px 'Oswald', sans-serif;
-  color:rgb(149, 95, 25);
+  font: 300 60px "Oswald", sans-serif;
+  color: rgb(149, 95, 25);
   text-transform: uppercase;
   letter-spacing: 3px;
   font-family: "Gugi", cursive;
@@ -435,15 +434,15 @@ body {
 .form-horizontal {
   /*float: left;*/
   max-width: 400px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-weight: 400;
 }
 
-.form-control, 
+.form-control,
 textarea {
   max-width: 400px;
   background-color: rgb(17, 17, 17);
-  color:  rgb(244, 237, 237);
+  color: rgb(244, 237, 237);
   letter-spacing: 1px;
   width: 398px;
   margin-top: 12px;
@@ -454,19 +453,19 @@ textarea {
   height: 34px;
   width: 400px;
   overflow: hidden;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .alt-send-button {
   width: 400px;
   height: 34px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .send-text {
   display: block;
   margin-top: 10px;
-  font: 700 12px 'Lato', sans-serif;
+  font: 700 12px "Lato", sans-serif;
   letter-spacing: 2px;
 }
 
@@ -493,7 +492,7 @@ textarea {
 }
 
 .contact-text {
-  font: 300 18px 'Lato', sans-serif;
+  font: 300 18px "Lato", sans-serif;
   letter-spacing: 1.9px;
   color: rgb(133, 89, 89);
   font-weight: bold;
@@ -537,7 +536,7 @@ textarea {
 }
 
 .social-media-list li {
-  position: relative; 
+  position: relative;
   display: inline-block;
   height: 50px;
   width: 50px;
@@ -545,13 +544,13 @@ textarea {
   line-height: 50px;
   border-radius: 50%;
   color: #fff;
-  background-color: rgb(27,27,27);
-  cursor: pointer; 
-  transition: all .2s ease-in-out;
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .social-media-list li:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -561,17 +560,17 @@ textarea {
   border-radius: 50%;
   opacity: 0;
   box-shadow: 0 0 0 1px rgb(202, 189, 189);
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .social-media-list li:hover {
-  background-color: rgb(131, 120, 89); 
+  background-color: rgb(131, 120, 89);
 }
 
 .social-media-list li:hover:after {
-  opacity: 1;  
+  opacity: 1;
   transform: scale(1.12);
-  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
 }
 
 .social-media-list li:hover a {
@@ -588,14 +587,15 @@ hr {
     display: flex;
     flex-direction: column;
   }
-  .direct-contact-container, .form-horizontal {
+  .direct-contact-container,
+  .form-horizontal {
     margin: 0 auto;
-  }  
-  
+  }
+
   .direct-contact-container {
     margin-top: 60px;
     max-width: 300px;
-  }    
+  }
   .social-media-list li {
     height: 60px;
     width: 60px;
@@ -609,25 +609,26 @@ hr {
 }
 
 @media screen and (max-width: 569px) {
-
-  .direct-contact-container, .form-wrapper {
+  .direct-contact-container,
+  .form-wrapper {
     float: none;
     margin: 0 auto;
-  }  
-  .form-control, textarea {
-    
+  }
+  .form-control,
+  textarea {
     margin: 0 auto;
   }
- 
-  
-  .name, .email, textarea {
+
+  .name,
+  .email,
+  textarea {
     width: 280px;
-  } 
-  
+  }
+
   .direct-contact-container {
     margin-top: 60px;
     max-width: 280px;
-  }  
+  }
   .social-media-list {
     left: 0;
   }
@@ -642,7 +643,6 @@ hr {
     height: 55px;
     line-height: 55px;
   }
-  
 }
 
 @media screen and (max-width: 360px) {
@@ -650,46 +650,58 @@ hr {
     max-width: 300px;
   }
 
-  .name, .email, textarea {
-      width: 180px;
-  } 
+  .name,
+  .email,
+  textarea {
+    width: 180px;
+  }
 
   .direct-contact-container {
-      margin-top: 50px;
-      max-width: 250px;
-  }  
-  .form-group{
-      /*padding-left: -30px;*/
-      max-width: 300px;
-  } 
+    margin-top: 50px;
+    max-width: 250px;
+  }
+  .form-group {
+    /*padding-left: -30px;*/
+    max-width: 300px;
+  }
 
-  .form-control{
-      max-width: initial;  
-  } 
- 
-  .contact-list{
-     text-align: justify; 
+  .form-control {
+    max-width: initial;
   }
-  .paper-plane{
-     text-align: center; 
+
+  .contact-list {
+    text-align: justify;
   }
-  .alt-send-button{
-    width: 277px; 
- }
+  .paper-plane {
+    text-align: center;
+  }
+  .alt-send-button {
+    width: 277px;
+  }
 }
 
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
-  #primary { width:67%; }
-  #secondary { width:30%; margin-left:3%;}  
+  #primary {
+    width: 67%;
+  }
+  #secondary {
+    width: 30%;
+    margin-left: 3%;
+  }
 }
 
 /* Media Queries: Tabled Portrait */
 @media screen and (max-width: 768px) {
-  #primary { width:100%; }
-  #secondary { width:100%; margin:0; border:none; }
+  #primary {
+    width: 100%;
+  }
+  #secondary {
+    width: 100%;
+    margin: 0;
+    border: none;
+  }
 }
-
 
 footer {
   text-align: left;
@@ -791,7 +803,6 @@ footer {
 
     min-width: 20px;
     width: 20%;
-
   }
 
   .welcome-part .photo-div {
